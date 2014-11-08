@@ -1,0 +1,26 @@
+# Site settings
+title: Francis Visoiu Mistrih
+email: admin@francisvm.com
+description: > # this means to ignore newlines until "baseurl:"
+  Work portfolio of Visoiu Mistrih Francis.
+baseurl: "" # the subpath of your site, e.g. /blog/
+projectsurl: "/projects"
+url: "http://francisvm.com" # the base hostname & protocol for your site
+twitter_username:    thegameg
+github_username:     thegameg
+bitbucket_username:  thegameg
+linkedin_username:   francisvm
+
+# Google analytics
+google_analytics:
+
+# Optional features
+animates: false
+show_related_posts: false
+show_post_footers: false
+show_social_icons: true
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:title/
+paginate: 10
