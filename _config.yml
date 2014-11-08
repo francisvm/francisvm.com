@@ -14,6 +14,12 @@ linkedin_username:   francisvm
 # Google analytics
 google_analytics:
 
+analytics :
+  provider : google 
+  google : 
+    tracking_id : 'UA-43616303-1'
+
+
 # Optional features
 animates: false
 show_related_posts: false
@@ -23,4 +29,3 @@ show_social_icons: true
 # Build settings
 markdown: kramdown
 permalink: /:year/:title/
-paginate: 10
