@@ -4,7 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-Most of my projects are avalible on my [GitHub](https://github.com/thegameg) and [Bitbucket](http://bitbucket.org/thegameg) accounts.
+Most of my projects are available on my
+[GitHub](https://github.com/thegameg) and
+[Bitbucket](http://bitbucket.org/thegameg) accounts.
 
 ---
 

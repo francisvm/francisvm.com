@@ -6,9 +6,11 @@ summary:    C mini-projects in the 3rd year of EPITA
 categories: c
 ---
 
-The 3rd year of EPITA is THE year when real C programming begins.
+The 3rd year of EPITA is THE year when the learning of real
+C programming begins.
 
-In order to learn C, we have a (or more) mini-project(s) every week for the whole semester.
+In order to learn C, we have one or more mini-projects every week
+during the whole semester.
 
 * Libstream
 * Minimake

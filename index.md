@@ -6,16 +6,19 @@ title: Francis Visoiu Mistrih
 # Welcome
 I am Francis Visoiu Mistrih, a developer studying in Paris.
 
-Currently a student at EPITA, I love learning new stuff about computer science, from low-level stuff to iPhone apps and web.
+Currently a student at EPITA, I love learning new stuff about computer science,
+from low-level stuff to iPhone apps and web development.
 
 ## About
 Here is [my resume](http://cv.francisvm.com/).
 
 Be sure to check more about me [here](/about/).
 
-Don't hesitate to look around my [GitHub](https://github.com/thegameg) and [Bitbucket](http://bitbucket.org/thegameg) account.
+Don't hesitate to look around my [GitHub](https://github.com/thegameg) and
+[Bitbucket](http://bitbucket.org/thegameg) account.
 
-Maybe it's even worth it to check my [Linkedin profile](https://www.linkedin.com/in/francisvm).
+Maybe it's even worth it to check my
+[Linkedin profile](https://www.linkedin.com/in/francisvm).
 
 ## Projects
 

@@ -6,11 +6,16 @@ summary:    Foreign Jump - A runner-type video game on Windows.
 categories: games school
 ---
 
-Foreign Jump is a runner-type video game. The game is based on the concept of Temple Run. The player has to jump to avoid the obstacles and get away from the ennemy.
+Foreign Jump is a runner-type video game.
+The game is based on the concept of Temple Run.
+The player has to jump to avoid the obstacles and get away from the enemy.
 
-Created during the first year of EPITA, as a school project with 3 other members.
+Created during the first year of EPITA,
+as a school project with 3 other members.
 
-This video game was created using C# and Microsoft's XNA framework. Along that, we used Xbox Live for multiplayer and a very basic AI for the ennemy.
+This video game was developed using C# and Microsoft's XNA framework.
+Along that, we used Xbox Live for the multi player
+and a very basic AI for the enemy.
 
 [Website](http://foreignjump.com/)
 
