@@ -17,7 +17,7 @@ This video game was developed using C# and Microsoft's XNA framework.
 Along that, we used Xbox Live for the multi player
 and a very basic AI for the enemy.
 
-[Website](http://foreignjump.com/)
+[Website](http://foreignjump.francisvm.com/)
 
 ![Cover](/images/foreignjump/cover.png)
 ![Gameplay](/images/foreignjump/soutenance3.png)
