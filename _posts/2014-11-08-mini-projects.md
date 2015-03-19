@@ -27,3 +27,6 @@ during the whole semester.
     * Bezier curves
 * myHTTPd
     * Multi-threaded HTTP server
+* FlatSet
+    * A C++ set container, based on a sorted `std::vector`
+    * C++14

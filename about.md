@@ -35,11 +35,11 @@ I enjoy learning new stuff, and I currently work on many different projects.
 
 #### Programming languages
 * C
+* C++
 * Objective-C (iOS)
 * Python
 * OCaml
 * C#
-* C++
 * Java
 
 ### Projects
