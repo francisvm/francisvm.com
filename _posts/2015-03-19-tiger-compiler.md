@@ -6,38 +6,69 @@ summary:    Tiger Language Compiler
 categories: school
 ---
 
-The Tiger compiler is a 5-month project in a team of 3 students, which aims an advanced use of C++.
+The Tiger compiler is a 5-month project in a team of 4 students, which aims an
+advanced use of C++ and a better understanding of compiler theory.
 
 The idea came from Modern Compiler Implementation by Andrew W. Appel.
-Since the book is only discussing implementations in C, Java and ML, EPITA, and especially
-Akim wanted to do it in a more advanced and powerful language. **C++**.
+Since the book is only discussing implementations in C, Java and ML, EPITA, and
+especially Akim wanted to do it in a more advanced and powerful language.
+**C++**.
 
-The [LRDE](https://www.lrde.epita.fr/~tiger/assignments) is helping us with some basic code.
+The [LRDE](https://www.lrde.epita.fr/~tiger/assignments) is helping us
+with some code.
 
 ## Front end
 The first part of the compiler is the front end.
 
 ### Lexer / Parser
-The lexer was created using **flex**, and the parser using **bison**.
+The lexer was created using **Flex**, and the parser using **Bison**.
 
-### AST builder
-Building an Abstract Syntax Tree for the Tiger language is based on the parsing done by **bison**.
+### Semantic analysis
+This part of the Tiger project consists in analysing the source code,
+and verify the validity of the code, before translating it to
+an intermediate representation.
 
-### Pretty-Printer
-The pretty printer is only a debug phase. It is one of the most important phases in order
-to succeed the other levels.
+This part includes binding, where definitions are associated to utilizations
+and type checking, where the type compatibility is verified.
+We added function overloading, loop-desugar and function pruning and inlining.
 
-It is based on the design pattern **Visitor**. The **Visitor** in *TC* gives
-an entry point into the AST, and allows us to operate on the nodes without being intrusive.
-Almost all the parts of the front end are based on the visitor.
+### Translation
+The translation part is going to generate an intermediate representation of our
+program, from a semanticly correct AST.
 
-### Binder
-The binder is the part where an utilisation of a variable, function or type
-is associated to its definition.
+The IR language is the Tree language, used in Appel's books.
 
-It is heavily based on the **Visitor** design pattern, as well.
+I am also working on a LLVM generation from the AST.
 
+## Back end
 
-So far, Tiger is a work in progress.
+### Low-level translation (Canonicalization)
+From the High-level intermediate language (HIR), we are going
+to remove the nested instructions and generate a flat list of instructions, in
+order to aim lower-level languages, like assembly.
+
+Some optimizations were added at this phase, like constant expression reduction.
+
+### Instruction selection
+From the LIR, we are going to generate MIPS and x86 assembly.
+Some members of my group worked on a ARM and SPARC target.
+
+### Liveness analysis
+This is where the fun part begins. For now, we have unlimited registers and a
+list of instructions.
+
+This part, is transforming this list of instructions in a flow control graph.
+
+This graph is the base of the liveness analysis stage of the compiler.
+This allows us to know when each temporary is alive, so that we can generate
+an interference graph, allowing us to allocate registers properly.
+
+### Register allocation
+The last stage of Tiger is the most important and algorithmically challenging
+stage.
+
+During this stage, we have to allocate the temporaries a register each,
+put some of them on the stack if needed (spilling), and finish our
+Tiger Compiler.
 
 More information about the biggest Tiger community, [LRDE](https://www.lrde.epita.fr/~tiger/tiger).
