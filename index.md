@@ -7,7 +7,7 @@ title: Francis Visoiu Mistrih
 I am Francis Visoiu Mistrih, a developer studying in Paris.
 
 Currently a student at EPITA, I love learning new stuff about computer science,
-from low-level stuff to iPhone apps and web development.
+from low-level stuff to compilers and network applications.
 
 ## About
 Here is [my resume](http://cv.francisvm.com/).
