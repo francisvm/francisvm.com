@@ -26,7 +26,9 @@ during the whole semester.
     * Pathfinding
     * Bezier curves
 * myHTTPd
-    * Multi-threaded HTTP server
+    * Multi-threaded HTTP server (epoll, pthreads, etc.)
+* 42sh
+    * Bash-like POSIX shell
 * FlatSet
     * A C++ set container, based on a sorted `std::vector`
     * C++14
