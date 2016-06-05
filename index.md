@@ -3,19 +3,23 @@ layout: default
 title: Francis Visoiu Mistrih
 ---
 
-# Welcome
-I am Francis Visoiu Mistrih, a developer studying in Paris.
+# Francis Visoiu Mistrih
 
-Currently a student at EPITA, I love learning new stuff about computer science,
-from low-level stuff to compilers and network applications.
+### Interests
+
+* Compiler related stuff
+* LLVM related stuff
+* C++ related topics
+* Most low level stuff
 
 ## About
+
 Here is [my resume](http://cv.francisvm.com/).
 
-Be sure to check more about me [here](/about/).
+Most of my open source work is available on my
+[GitHub](https://github.com/thegameg).
 
-Don't hesitate to look around my [GitHub](https://github.com/thegameg) and
-[Bitbucket](http://bitbucket.org/thegameg) account.
+Be sure to check more about me [here](/about/).
 
 Maybe it's even worth it to check my
 [Linkedin profile](https://www.linkedin.com/in/francisvm).

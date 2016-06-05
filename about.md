@@ -13,34 +13,22 @@ I am currently a student at EPITA in Paris.
 
 ### Studies
 I’m studying Computer Science at an engineering school called EPITA,
-a private school in Paris. I study a lot about general engineering,
-like mathematics, physics, but also lots of algorithms,
-architecture of systems and of course programming.
+a private school in Paris. I enjoy learning about new computer science stuff.
+
+I am part of the [LSE](https://lse.epita.fr/), where we work on low-level
+stuffs.
 
 ### Programming
 I started programming with OCaml, a great functional programming language,
-then finished my first year with C#,
-which allowed me to work with the game engine XNA
-(check out [Foreign Jump]({{ site.baseurl }}/2012/foreignjump)).
-
-Then, in my free time, I started learning Objective-C and the iOS SDK.
-Also, I coded Foreign Jump on iOS,
-using Cocos2D game engine and Box2D physics engine.
-
-The most interesting period was during the 3rd year of EPITA.
-That's when the learning of real C programming and
-low-level system programming on UNIX started.
+went through C#, Objective-C, and ended up liking C++ and C, with some Python
+on the scripting side.
 
 I enjoy learning new stuff, and I currently work on many different projects.
 
-#### Programming languages
-* C
+#### Favorite programming languages
 * C++
-* Objective-C (iOS)
+* C
 * Python
-* OCaml
-* C#
-* Java
 
 ### Projects
 Be sure to check out my [projects](/projects/)!
