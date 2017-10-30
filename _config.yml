@@ -11,15 +11,6 @@ github_username:     thegameg
 bitbucket_username:  thegameg
 linkedin_username:   francisvm
 
-# Google analytics
-google_analytics:
-
-analytics :
-  provider : google 
-  google : 
-    tracking_id : 'UA-43616303-1'
-
-
 # Optional features
 animates: false
 show_related_posts: false
